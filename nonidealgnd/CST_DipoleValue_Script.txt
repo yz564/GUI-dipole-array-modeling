@@ -1,0 +1,17 @@
+Option Explicit
+Sub Main
+With CombineResults
+.Reset
+.SetMonitorType ("frequency")
+.EnableAutomaticLabeling (False)
+.SetLabel ("Code combination")
+.SetNone
+End With
+CombineResults.SetExcitationValues ("port",1,1,Cstr(0.0001266),-90.0012)
+CombineResults.SetExcitationValues ("port",2,1,Cstr(2.606e-08),99.0156)
+CombineResults.SetExcitationValues ("port",3,1,Cstr(2.5429e-08),-88.1565)
+CombineResults.SetExcitationValues ("port",4,1,Cstr(1.7362e-07),93.0822)
+CombineResults.SetExcitationValues ("port",5,1,Cstr(1.7226e-07),84.3423)
+CombineResults.SetExcitationValues ("port",6,1,Cstr(2.8354e-08),-89.9541)
+CombineResults.Run
+End Sub

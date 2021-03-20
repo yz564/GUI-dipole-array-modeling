@@ -1,0 +1,108 @@
+$begin'IncHDWave1'
+ID=21
+BoundType='Hertzian-Dipole Incident Wave'
+ParentBndID=-1
+IsCartesian=true
+kX='0'
+kY='0'
+kZ='1'
+OriginX='0meter'
+OriginY='0meter'
+OriginZ='0.001meter'
+SphereRadius='1e-4meter'
+EoX='1'
+EoY='0'
+EoZ='0'
+IsElectricDipole=false
+$end'IncHDWave1'
+$begin'IncHDWave2'
+ID=22
+BoundType='Hertzian-Dipole Incident Wave'
+ParentBndID=-1
+IsCartesian=true
+kX='0'
+kY='0'
+kZ='1'
+OriginX='0meter'
+OriginY='0meter'
+OriginZ='0.001meter'
+SphereRadius='1e-4meter'
+EoX='0'
+EoY='1'
+EoZ='0'
+IsElectricDipole=false
+$end'IncHDWave2'
+$begin'IncHDWave3'
+ID=23
+BoundType='Hertzian-Dipole Incident Wave'
+ParentBndID=-1
+IsCartesian=true
+kX='0'
+kY='0'
+kZ='1'
+OriginX='0meter'
+OriginY='0meter'
+OriginZ='0.001meter'
+SphereRadius='1e-4meter'
+EoX='0'
+EoY='0'
+EoZ='1'
+IsElectricDipole=false
+$end'IncHDWave3'
+$begin'IncHDWave4'
+ID=24
+BoundType='Hertzian-Dipole Incident Wave'
+ParentBndID=-1
+IsCartesian=true
+kX='0'
+kY='0'
+kZ='1'
+OriginX='0meter'
+OriginY='0meter'
+OriginZ='0.001meter'
+SphereRadius='1e-4meter'
+EoX='1'
+EoY='0'
+EoZ='0'
+IsElectricDipole=true
+$end'IncHDWave4'
+$begin'IncHDWave5'
+ID=25
+BoundType='Hertzian-Dipole Incident Wave'
+ParentBndID=-1
+IsCartesian=true
+kX='0'
+kY='0'
+kZ='1'
+OriginX='0meter'
+OriginY='0meter'
+OriginZ='0.001meter'
+SphereRadius='1e-4meter'
+EoX='0'
+EoY='1'
+EoZ='0'
+IsElectricDipole=true
+$end'IncHDWave5'
+$begin'IncHDWave6'
+ID=26
+BoundType='Hertzian-Dipole Incident Wave'
+ParentBndID=-1
+IsCartesian=true
+kX='0'
+kY='0'
+kZ='1'
+OriginX='0meter'
+OriginY='0meter'
+OriginZ='0.001meter'
+SphereRadius='1e-4meter'
+EoX='0'
+EoY='0'
+EoZ='1'
+IsElectricDipole=true
+$end'IncHDWave6'
+SourceEntry(ID=21, Index=0, Terminal=false, Terminated=false, Magnitude='0.99914', phase='-0.0012302deg')
+SourceEntry(ID=22, Index=0, Terminal=false, Terminated=false, Magnitude='0.00020567', phase='-170.9844deg')
+SourceEntry(ID=23, Index=0, Terminal=false, Terminated=false, Magnitude='0.00020069', phase='1.8435deg')
+SourceEntry(ID=24, Index=0, Terminal=false, Terminated=false, Magnitude='1.7362e-07', phase='93.0822deg')
+SourceEntry(ID=25, Index=0, Terminal=false, Terminated=false, Magnitude='1.7226e-07', phase='84.3423deg')
+SourceEntry(ID=26, Index=0, Terminal=false, Terminated=false, Magnitude='2.8354e-08', phase='-89.9541deg')
